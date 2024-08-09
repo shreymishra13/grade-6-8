@@ -31,33 +31,28 @@ h1 + p {
 }
 
 /* :hover Pseudo-class */
-/* ul li:hover {
-    color: #4F8CC9;
-} */
+.points:hover{
+    font-size: 20px;
+    color: #1F6FEB;
+    text-shadow: 3px 3px 3px white;
+}
 
-.arham:hover{
-    background-color: #C9D1D9;
-    color:red;
-    font-size: 30px;
+.points:active{
+    background-color: #b73a31;
+    color: blueviolet;
+
 }
 
 
-/* :nth-child(n) Pseudo-class */
-ul li:nth-child(3) {
-    background-color: #21262D;
-}
 
-/* :not(selector) Pseudo-class */
-p:not(:first-of-type) {
-    text-decoration: underline;
-}
+
 
 /* ::before Pseudo-element */
-.arham::before {
-    content: "🚀 ";
+.points::before{
+    content: "😉";
 }
-.arham::after{
-    content:"😉";
+.points::after{
+    content: "😘";
 }
 
 /* ::after Pseudo-element */
@@ -66,8 +61,11 @@ a::after {
 }
 
 /* ::first-letter Pseudo-element */
-p::first-letter {
-    font-size: 200%;
-    color: #FF7B72;
+.para-1::first-letter {
+   font-size: 32px;
+    color: #b73a31;
 }
+
+
+
 /* text-shadow:4px 6px 2px orange; */
