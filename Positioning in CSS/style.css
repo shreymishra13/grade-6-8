@@ -1,0 +1,23 @@
+body{
+    background-color: grey;
+}
+#static{
+    background-color: pink;
+    border: 1px solid black;
+    padding: 5px;
+}
+#fixed{
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 5px;
+    position: fixed;
+    bottom: 0px;
+}
+#sticky{
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 140px;
+    border: 1px solid red;
+    padding: 5px;
+}

@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+#MyClockDisplay{
+    margin: auto;
+  width: 350px;
+  margin-top: 50px;
+  text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(34, 30, 30);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid red;
+    box-shadow: 2px 2px 20px red;
+
+}

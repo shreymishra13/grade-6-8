@@ -1,71 +1,45 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #0D1117;
-    color: #C9D1D9;
+body{
+    background-color: black;
+    color: white;
+    font-size: larger;
+}
+#heading{
+    color: red;
+    font-size: 40px;
 }
 
-h1 {
-    color: #58A6FF;
-}
 
-/* Attribute Selector */
-a {
-    color: #8B949E;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #1F6FEB;
-}
-
-/* Child Selector */
-ul > li {
-    font-weight: bold;
-}
-
-/* Sibling Selector */
-h1 + p {
-    background-color: #161B22;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* :hover Pseudo-class */
-.points:hover{
-    font-size: 20px;
-    color: #1F6FEB;
-    text-shadow: 3px 3px 3px white;
-}
-
-.points:active{
-    background-color: #b73a31;
-    color: blueviolet;
+#heading:hover{
+    color: blue;
+    text-shadow:5px 5px 5px yellow ;
 
 }
 
 
 
 
+li:hover{
+    color: aqua;
 
-/* ::before Pseudo-element */
-.points::before{
+}
+li::before{
     content: "😉";
 }
-.points::after{
-    content: "😘";
-}
-
-/* ::after Pseudo-element */
-a::after {
-    content: " 🌌";
-}
-
-/* ::first-letter Pseudo-element */
-.para-1::first-letter {
-   font-size: 32px;
-    color: #b73a31;
+li::after{
+    content: "🤞";
 }
 
 
 
-/* text-shadow:4px 6px 2px orange; */
+
+
+#para-1::first-letter{
+   color: aqua;
+   font-size: 30px;
+   text-shadow: 5px 5px 5px aqua;
+}
+
+#para-2::first-letter{
+    font-size: 30px;
+    color: rgb(128, 0, 255);
+}

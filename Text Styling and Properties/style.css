@@ -1,0 +1,45 @@
+/* p{
+    color: aqua;
+    font-size: 30px;
+    font-family: cursive;
+}
+body{
+    background-color: black;
+
+}
+
+#para-1{
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+#para-2{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#para-3{
+    text-decoration: overline underline ;
+    text-transform: lowercase;
+}
+#para-4{
+    text-decoration: line-through;
+    text-transform: none;
+} */
+
+
+
+
+
+
+
+/* Code for second activity */
+body{
+    background-color: black;
+    color: rgb(241, 11, 11);
+}
+p{
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 4px 5px 5px rgb(4, 197, 231);
+    background-color: beige;
+    box-shadow:14px 15px 15px rgb(4, 197, 231) ;
+}

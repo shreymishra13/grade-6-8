@@ -1,34 +1,17 @@
-/* h1{
-    color:orange ; 
-    background-color: yellow;
-   
-}
-h2{
-    color:red;
-    background-color: purple;
-}
-.heading-1{
-    color:pink;
-    background-color: purple;
-}
-#heading-2{
-    color:aqua;
-    background-color: black;
-}
 
-*/
+
 *{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:aqua;
+    color: red;
     background-color: black;
+
 }
 #para{
-    box-shadow: 3px 4px 4px ;
+    color: white;
 }
-
-/* 5 selectors:
-1. tag selector/element selector
-2. class selector ( . )
-3. id  ( # )
-4. universal selector
-5. advance sele */ 
+.para-2{
+    color: pink;
+}
+h1{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
